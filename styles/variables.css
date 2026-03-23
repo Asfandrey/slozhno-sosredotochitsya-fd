@@ -2,3 +2,44 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+  /*  -- bg --  */
+  --page-bg-image: url("../images/cover-image-dark.png");
+  --page-bg-color: #262243;
+
+  /*  -- font-size --  */
+  --main-font-family: "IBM Plex mono";
+  --main-font-size: 18px;
+  --font-size-hero: 157px;
+  --font-size-hero-tablet: 120px;
+  --font-size-hero-mobile: 116px;
+  --line-height-hero: 82.5%;
+  --main-font-style: normal;
+  --font-style-hero: bold;
+  --main-font-weight: 400;
+  --main-title-font-weight: 700;
+  --main-line-height: 130%;
+
+  /* -- min-height --   */
+  --min-height-desctop: 768px;
+  --min-height-tablet: 1024px;
+  --min-height-mobile: 668px;
+
+  /* -- colors -- */
+  --main-color: #ff0070;
+  --main-text-color: #f1b2ce;
+  --hero-footer-headding-color: #db00ff;
+  --main-text-title-color: #000028;
+  --hero-footer-headding-lite-theme-color: #ffc2e6;
+  --accent-color: #ff0070;
+  --main-text-light-theme-color: #353430;
+  --border-hover-color: rgba(255, 0, 112, 0.4);
+  --border-button-accent: #ff0070;
+
+  /* -- paddings --  */
+  --padding-mobile: 10px;
+  --padding-base: 20px;
+
+  /* -- decoration --  */
+  --decoration-display: block;
+}
