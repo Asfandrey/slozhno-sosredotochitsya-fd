@@ -8,7 +8,7 @@
   --page-bg-color: #262243;
 
   /*  -- font-size --  */
-  --main-font-family: "IBM Plex mono";
+  --main-font-family: "IBM Plex mono", "Courier New", Courier, serif;
   --main-font-size: 18px;
   --font-size-hero: 157px;
   --font-size-hero-tablet: 120px;
