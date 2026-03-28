@@ -12,7 +12,8 @@
 .header {
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
-  min-height: 100vh;
+  height: 100vh;
+  min-height: 668px;
   padding: var(--padding-mobile);
 }
 
@@ -220,7 +221,8 @@
   display: grid;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  height: 100vh;
+  min-height: 668px;
   padding: var(--padding-mobile);
 }
 
@@ -237,6 +239,7 @@
 
   .header {
     padding: var(--padding-base);
+    min-height: 1024px;
   }
 
   .decorated-zone::before {
@@ -362,6 +365,7 @@
   }
 
   .footer {
+    min-height: 1024px;
     padding: var(--padding-base);
   }
 
@@ -381,6 +385,11 @@
 }
 
 @media (width >= 960px) {
+
+  .header,
+  .footer {
+    min-height: 768px;
+  }
 
   .hero__title {
     display: flex;
