@@ -12,9 +12,10 @@
 
   --page-bg-color: #ffeef6;
   --page-bg-image: url('../images/cover-image-light.png');
-  --hero-footer-headding-color: #FFC2E6;
+  --hero-footer-heading-color: #FFC2E6;
   --accent-color:#FF8DCB;
   --main-color: #FF8DCB;
+  --title-accent-color: #353430;
   --main-text-title-color: #353430;
   --main-text-color: #353430;
   --border-button-accent: #353430;
@@ -28,8 +29,9 @@
   :root {
   --page-bg-color: #ffeef6;
   --page-bg-image: url('../images/cover-image-light.png');
-  --hero-footer-headding-color: #FFC2E6;
+  --hero-footer-heading-color: #FFC2E6;
   --accent-color:#FF8DCB;
+  --title-accent-color: #353430;
   --main-color: #FF8DCB;
   --main-text-title-color: #353430;
   --main-text-color: #353430;

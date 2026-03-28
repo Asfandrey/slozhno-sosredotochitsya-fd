@@ -5,14 +5,11 @@
 :root {
   /*  -- bg --  */
   --page-bg-image: url("../images/cover-image-dark.png");
-  --page-bg-color: #262243;
+  --page-bg-color: #000028;
 
   /*  -- font-size --  */
   --main-font-family: "IBM Plex mono", "Courier New", Courier, serif;
   --main-font-size: 18px;
-  --font-size-hero: 157px;
-  --font-size-hero-tablet: 120px;
-  --font-size-hero-mobile: 116px;
   --line-height-hero: 82.5%;
   --main-font-style: normal;
   --font-style-hero: bold;
@@ -20,21 +17,15 @@
   --main-title-font-weight: 700;
   --main-line-height: 130%;
 
-  /* -- min-height --   */
-  --min-height-desctop: 768px;
-  --min-height-tablet: 1024px;
-  --min-height-mobile: 668px;
-
   /* -- colors -- */
-  --main-color: #ff0070;
+  --main-color: #ff0070; /**/
   --main-text-color: #f1b2ce;
-  --hero-footer-headding-color: #db00ff;
+  --hero-footer-heading-color: #db00ff;
   --main-text-title-color: #000028;
-  --hero-footer-headding-lite-theme-color: #ffc2e6;
-  --accent-color: #ff0070;
-  --main-text-light-theme-color: #353430;
+  --accent-color: #ff0070; 
+  --title-accent-color: #ff0070;
   --border-hover-color: rgba(255, 0, 112, 0.4);
-  --border-button-accent: #ff0070;
+  --border-button-accent: #ff0070;/**/
 
   /* -- paddings --  */
   --padding-mobile: 10px;
